@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="تراز">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4c64e6"/>
+      <stop offset="1" stop-color="#272f72"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfe5fb"/>
+    </linearGradient>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9f99d"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <!-- the level: a long bar with a vial in the middle and one at each end -->
+  <rect x="56" y="196" width="400" height="120" rx="26" fill="url(#body)"/>
+  <rect x="56" y="292" width="400" height="24" rx="12" fill="#c4d0fb"/>
+  <!-- centre vial -->
+  <rect x="166" y="222" width="180" height="68" rx="34" fill="#272f72"/>
+  <rect x="176" y="232" width="160" height="48" rx="24" fill="url(#liquid)"/>
+  <ellipse cx="256" cy="249" rx="30" ry="12" fill="#ffffff" opacity="0.95"/>
+  <line x1="212" y1="232" x2="212" y2="280" stroke="#272f72" stroke-width="6"/>
+  <line x1="300" y1="232" x2="300" y2="280" stroke="#272f72" stroke-width="6"/>
+  <!-- end vials -->
+  <circle cx="108" cy="256" r="24" fill="#272f72"/>
+  <circle cx="108" cy="256" r="15" fill="url(#liquid)"/>
+  <circle cx="404" cy="256" r="24" fill="#272f72"/>
+  <circle cx="404" cy="256" r="15" fill="url(#liquid)"/>
+</svg>
